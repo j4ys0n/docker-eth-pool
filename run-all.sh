@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-cd ./geth
-./run-geth.sh
-sleep 4
+#cd ./geth
+#./run-geth.sh
+#sleep 4
 
-cd ../redis
+cd ./redis
 ./run-redis.sh
 sleep 3
 

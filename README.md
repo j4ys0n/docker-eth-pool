@@ -7,7 +7,7 @@ Use the awesome [Docker CE](https://www.docker.com/community-edition) to get
 
 1. Install Docker. Please [see official instructions](https://docs.docker.com/install/).
 
-2. Install geth. Please [see official instructions](https://github.com/ethereum/go-ethereum/wiki/Building-Ethereum).
+2. Install geth. Please [see official instructions](https://github.com/ethereum/go-ethereum/wiki/Installing-Geth).
 
 3. Install [screen](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-screen-on-an-ubuntu-cloud-server) and [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 

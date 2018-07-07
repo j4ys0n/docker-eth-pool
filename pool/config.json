@@ -1,6 +1,6 @@
 {
 	"threads": 2,
-	"coin": "eth",
+	"coin": "etc",
 	"name": "main",
 
 	"proxy": {
@@ -19,7 +19,7 @@
 
 		"stratum": {
 			"enabled": true,
-			"listen": "0.0.0.0:8008",
+			"listen": "0.0.0.0:8009",
 			"timeout": "120s",
 			"maxConn": 8192
 		},
@@ -50,7 +50,7 @@
 		"enabled": true,
 		"purgeOnly": false,
 		"purgeInterval": "10m",
-		"listen": "0.0.0.0:8080",
+		"listen": "0.0.0.0:8090",
 		"statsCollectInterval": "5s",
 		"hashrateWindow": "30m",
 		"hashrateLargeWindow": "3h",
@@ -63,7 +63,7 @@
 	"upstream": [
 		{
 			"name": "main",
-			"url": "http://127.0.0.1:13270",
+			"url": "http://127.0.0.1:8545",
 			"timeout": "10s"
 		}
 	],
@@ -89,7 +89,7 @@
 	},
 
 	"payouts": {
-		"enabled": false,
+		"enabled": true,
 		"requirePeers": 25,
 		"interval": "120m",
 		"daemon": "http://127.0.0.1:8545",

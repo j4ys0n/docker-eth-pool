@@ -6,7 +6,7 @@ RUN git clone https://github.com/sammy007/open-ethereum-pool.git
 
 WORKDIR /go/src/app/open-ethereum-pool
 RUN make
-
+RUN echo 1
 COPY config.json .
 
 CMD ["./build/bin/open-ethereum-pool", "config.json"]
